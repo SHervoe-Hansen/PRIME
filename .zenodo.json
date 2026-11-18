@@ -1,0 +1,46 @@
+{
+  "title": "Protonation-number Reweighting for pH-Dependent Free Energy Calculations",
+  "description": "This repository contains electronic notebooks (Jupyter) for reproducing the simulation results in the work titled above",
+  "creators": [
+    {
+      "name": "Stefan Hervø-Hansen",
+      "affiliation": "Division of Chemical Engineering, Graduate School of Engineering Science, The Univeristy of Osaka, Japan",
+      "orcid": "0000-0002-9629-9195"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Nobuyuki Matubayasi",
+      "orcid": "0000-0001-7176-441X",
+      "type": "Researcher",
+      "affiliation": "Division of Chemical Engineering, Graduate School of Engineering Science, The University of Osaka, Japan"
+    }
+  ],
+  "keywords": [
+    "reproducible science",
+    "electronic notebooks",
+    "chemistry",
+    "constant-pH molecular dynamics",
+    "metropolis monte carlo",
+    "maximum likelihood",
+    "free energy calculations",
+    "insulin"
+  ],
+  "related_identifiers": [
+    {
+      "scheme": "url",
+      "identifier": "https://github.com/SHervoe-Hansen/PRIME", 
+      "relation": "isSupplementTo"
+    },
+    {
+      "scheme": "doi",
+      "identifier": "10.1021/acs.jctc.4c01000",
+      "relation": "isSupplementTo"
+    }
+  ],
+  "license": {
+    "id": "mit"
+  },
+  "access_right": "open",
+  "upload_type": "software"
+}
