@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "prime-reweighting"
+dynamic = ["version"]
+description = "PRIME: protonation-number reweighting for pH-dependent free energies from constant-pH simulations"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.9"
+authors = [
+    {name = "Stefan Hervø-Hansen", email = "stefan@cheng.es.osaka-u.ac.jp"},
+    {name = "Nobuyuki Matubayasi", email = "nobuyuki@cheng.es.osaka-u.ac.jp"},
+]
+keywords = ["constant-pH", "molecular dynamics", "free energy", "MBAR", "reweighting", "titration"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Chemistry",
+    "Topic :: Scientific/Engineering :: Physics",
+]
+dependencies = [
+    "numpy>=1.21",
+    "scipy>=1.8",
+]
+
+[project.optional-dependencies]
+notebooks = ["matplotlib>=3.5", "jupyterlab", "pillow"]
+test = ["pytest>=7"]
+
+[project.urls]
+Homepage = "https://github.com/<user>/prime-reweighting"
+Paper = "https://doi.org/<DOI of the paper>"
+
+[tool.setuptools.dynamic]
+version = {attr = "prime.core.__version__"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
