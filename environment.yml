@@ -1,0 +1,16 @@
+# conda env create -f environment.yml
+# conda activate prime
+name: prime
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.9
+  - numpy>=1.21
+  - scipy>=1.8
+  - matplotlib>=3.5      # figures of the notebooks
+  - pillow               # the TIFF of the TOC graphic
+  - jupyterlab
+  - pytest>=7
+  - pip
+  - pip:
+      - -e .             # the package itself, editable, from this directory
