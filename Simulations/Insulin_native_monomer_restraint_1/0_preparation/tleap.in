@@ -1,0 +1,19 @@
+# Protein setup
+source leaprc.constph
+mol = loadPDB 3i40_monomer_amber.pdb 
+
+# Disulfide bonds
+bond mol.7.SG mol.12.SG    # A Cys6 - A Cys11
+bond mol.8.SG mol.31.SG    # A Cys7 - B Cys7
+bond mol.21.SG mol.43.SG    # A Cys20 - B Cys19
+
+# Solvent setup
+source leaprc.water.tip3p
+loadAmberParams frcmod.ionsjc_tip3p
+solvateBox mol TIP3PBOX 20.0
+charge mol
+
+# Save files
+saveAmberParm mol insulin.parm7 insulin.rst7
+savePdb mol insulin_leap_output.pdb
+quit
