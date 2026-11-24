@@ -1,6 +1,4 @@
-# PRIME
-
-**Protonation-number Reweighting in Multi-pH Ensembles**
+# PRIME: Protonation-number Reweighting in Multi-pH Ensembles
 
 Free energies, titration curves and protonation-number distributions at any pH, from the protonation numbers recorded in constant-pH simulations.
 
