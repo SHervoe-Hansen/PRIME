@@ -1,6 +1,10 @@
 # Created by https://www.toptal.com/developers/gitignore/api/macos,linux,windows,python,jupyternotebooks
 # Edit at https://www.toptal.com/developers/gitignore?templates=macos,linux,windows,python,jupyternotebooks
 
+### PROJECT SPECIFIC FILES ###
+.nc
+
+
 ### JupyterNotebooks ###
 # gitignore template for Jupyter Notebooks
 # website: http://jupyter.org/
