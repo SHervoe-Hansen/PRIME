@@ -1,0 +1,6 @@
+bond mol.7.SG mol.12.SG    # layer 1 insulin 1: K Cys6 - K Cys11
+bond mol.8.SG mol.31.SG    # layer 1 insulin 1: K Cys7 - k Cys7
+bond mol.21.SG mol.43.SG    # layer 1 insulin 1: K Cys20 - k Cys19
+bond mol.62.SG mol.67.SG    # layer 1 insulin 2: L Cys6 - L Cys11
+bond mol.63.SG mol.86.SG    # layer 1 insulin 2: L Cys7 - l Cys7
+bond mol.76.SG mol.98.SG    # layer 1 insulin 2: L Cys20 - l Cys19
