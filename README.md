@@ -24,7 +24,7 @@ pip install .                            # the package and its two dependencies,
 pip install -e ".[notebooks,test]"       # editable, plus matplotlib, jupyterlab, pillow and pytest
 ```
 
-Python 3.9 or newer is required. The distribution is named `prime-reweighting` and the module is imported as `prime`. An unrelated package named `prime` exists on PyPI, so install this one from the repository rather than by that name.
+Python 3.9 or newer is required. The distribution is named `prime-reweighting` and the module is imported as `prime`. 
 
 ## Quick start
 
