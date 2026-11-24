@@ -4,6 +4,9 @@
 ### PROJECT SPECIFIC FILES ###
 *.nc
 *.dat
+reordered_cpouts.pH_*
+!reordered_cpouts.pH_*.protpack
+*.partial
 
 ### JupyterNotebooks ###
 # gitignore template for Jupyter Notebooks
