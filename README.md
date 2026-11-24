@@ -4,7 +4,7 @@ Free energies, titration curves and protonation-number distributions at any pH, 
 
 PRIME is the multistate Bennett acceptance ratio (MBAR) specialized to the semi-grand ensemble of protons. The pH windows of a constant-pH simulation differ only through the term $\ln 10 \cdot \mathrm{pH} \cdot N$, so the potential energy cancels from the MBAR equations and the sum over configurations collapses onto the protonation number $N$. The histogram of $N$ in every window is therefore all that PRIME needs, and the compression is exact. The package is the reference implementation of
 
-> S. Hervø-Hansen and N. Matubayasi, *Protonation-number Reweighting for pH-Dependent Free Energy Calculations*, submitted. DOI to follow.
+> S. Hervø-Hansen and N. Matubayasi, *Protonation-number Reweighting for pH-Dependent Free Energy Calculations*. DOI to follow.
 
 The only input is $N(t)$ for every pH window, one integer per frame. No energies, no coordinates and no site assignments are needed, so the package works with the output of any constant-pH code.
 
