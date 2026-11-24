@@ -2,8 +2,8 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=macos,linux,windows,python,jupyternotebooks
 
 ### PROJECT SPECIFIC FILES ###
-.nc
-
+*.nc
+*.dat
 
 ### JupyterNotebooks ###
 # gitignore template for Jupyter Notebooks
