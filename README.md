@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24522730.svg)](https://doi.org/10.5281/zenodo.24522730)
 <p align="center">
     <picture>
         <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">

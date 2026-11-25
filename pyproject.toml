@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "prime-reweighting"
 dynamic = ["version"]
-description = "PRIME: protonation-number reweighting for pH-dependent free energies from constant-pH simulations"
+description = "PRIME: Protonation-number Reweighting in Multi-pH Ensembles"
 readme = "README.md"
 license = {text = "MIT"}
 requires-python = ">=3.9"
@@ -32,7 +32,7 @@ notebooks = ["matplotlib>=3.5", "jupyterlab", "pillow"]
 test = ["pytest>=7"]
 
 [project.urls]
-Homepage = "https://github.com/<user>/prime-reweighting"
+Homepage = "https://github.com/SHervoe-Hansen/PRIME"
 Paper = "https://doi.org/<DOI of the paper>"
 
 [tool.setuptools.dynamic]

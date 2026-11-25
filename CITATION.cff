@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use PRIME in published work, please cite the paper below and the software."
+title: "prime: protonation-number reweighting in multi-ph ensembles"
+type: software
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/SHervoe-Hansen/PRIME"
+doi: "10.5281/zenodo.24522730"
+authors:
+  - family-names: "Hervø-Hansen"
+    given-names: "Stefan"
+    orcid: "https://orcid.org/0000-0002-9629-9195"
+  - family-names: "Matubayasi"
+    given-names: "Nobuyuki"
+    orcid: "https://orcid.org/0000-0001-7176-441X"
