@@ -1,3 +1,11 @@
+<p align="center">
+    <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+        <img src="assets/banner.svg" alt="PRIME: Protonation-number Reweighting in Multi-pH Ensembles" width="720">
+    </picture>
+</p>
+
+
 # PRIME: Protonation-number Reweighting in Multi-pH Ensembles
 
 Free energies, titration curves and protonation-number distributions at any pH, from the protonation numbers recorded in constant-pH simulations.
@@ -95,7 +103,7 @@ The plain files appear next to the packed ones with their original names, and ea
 
 ## Citation
 
-If you use PRIME, please cite the paper above. The citation of the package itself will be added with its DOI.
+If you use PRIME, please cite the paper above. GitHub's "Cite this repository" button takes the reference from [`CITATION.cff`](CITATION.cff). The citation of the package itself will be added with its DOI.
 
 ## License
 
