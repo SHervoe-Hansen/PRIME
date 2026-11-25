@@ -94,7 +94,7 @@ The `reordered_cpouts.pH_*` files are stored in packed form, one `.protpack` fil
 
 ```bash
 cd Simulations/[condition]/5_analysis
-python protpack.py
+python Protpack.py
 ```
 
 The plain files appear next to the packed ones with their original names, and each is checked against its sha256 sum. This needs Python 3 and numpy and takes a few minutes per condition. Running the script again does nothing once both forms are present. The analysis notebook reads the restored files.
