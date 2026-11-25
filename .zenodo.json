@@ -1,6 +1,6 @@
 {
   "title": "Protonation-number Reweighting for pH-Dependent Free Energy Calculations",
-  "description": "This repository contains electronic notebooks (Jupyter) for reproducing the simulation results in the work titled above",
+  "description": "Reference implementation of PRIME (Protonation-number Reweighting in Multi-pH Ensembles), a Python package that computes pH-dependent free energies, titration curves and stepwise pK values from the protonation numbers recorded in constant-pH simulations run at several pH values. The repository also contains electronic notebooks (Jupyter) and simulation inputs for reproducing the simulation results in the work titled above",
   "creators": [
     {
       "name": "Stefan Hervø-Hansen",
@@ -30,11 +30,6 @@
     {
       "scheme": "url",
       "identifier": "https://github.com/SHervoe-Hansen/PRIME", 
-      "relation": "isSupplementTo"
-    },
-    {
-      "scheme": "doi",
-      "identifier": "10.1021/acs.jctc.4c01000",
       "relation": "isSupplementTo"
     }
   ],
