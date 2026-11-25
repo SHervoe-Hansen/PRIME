@@ -5,9 +5,6 @@
     </picture>
 </p>
 
-
-# PRIME: Protonation-number Reweighting in Multi-pH Ensembles
-
 Free energies, titration curves and protonation-number distributions at any pH, from the protonation numbers recorded in constant-pH simulations.
 
 PRIME is the multistate Bennett acceptance ratio (MBAR) specialized to the semi-grand ensemble of protons. The pH windows of a constant-pH simulation differ only through the term $\ln 10 \cdot \mathrm{pH} \cdot N$, so the potential energy cancels from the MBAR equations and the sum over configurations collapses onto the protonation number $N$. The histogram of $N$ in every window is therefore all that PRIME needs, and the compression is exact. The package is the reference implementation of
